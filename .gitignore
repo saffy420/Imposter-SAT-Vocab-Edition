@@ -1,0 +1,42 @@
+# ─── Dependencies ────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Production builds ───────────────────────────
+client/build/
+client/.next/
+
+# ─── Environment variables ────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Logs ────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# ─── OS files ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor / IDE ────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Testing ─────────────────────────────────────
+coverage/
+
+# ─── Misc ────────────────────────────────────────
+.cache/
