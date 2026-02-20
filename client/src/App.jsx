@@ -373,7 +373,7 @@ function Landing({ go }) {
       <div>
         <div style={{ width:80, height:80, borderRadius:22, margin:"0 auto 28px", background:"linear-gradient(135deg,#3b82f6,#7c5cbf)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:36, boxShadow:"0 12px 40px rgba(59,130,246,.45)" }}>📖</div>
         <h1 style={{ fontFamily:"'Playfair Display',serif", fontSize:"clamp(38px,8vw,72px)", fontWeight:900, color:"#fff", lineHeight:1.1, marginBottom:14 }}>
-          SAT Vocab<br />Imposter
+          Imposter:<br />SAT Vocab Edition
         </h1>
         <p style={{ color:"rgba(255,255,255,.6)", fontSize:18 }}>Spot the imposter. Master your vocab.</p>
       </div>
