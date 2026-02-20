@@ -1,5 +1,5 @@
 /**
- * App.jsx — SAT Vocab Imposter
+ * App.jsx — Imposter: SAT Vocab Edition
  * Full React app wired to the real backend via api.js
  */
 import { useState, useEffect, useCallback } from "react";
@@ -310,7 +310,7 @@ function TopBar({ theme, toggleTheme, showBack, onBack, rightSlot }) {
         {showBack && (
           <button className="btn btn-ghost" onClick={onBack} style={{ color:"rgba(255,255,255,.7)" }}>← Back</button>
         )}
-        <span className="topbar-title">📚 SAT Vocab Imposter</span>
+        <span className="topbar-title">📚 Imposter: SAT Vocab Edition</span>
       </div>
       <div style={{ display:"flex", alignItems:"center", gap:12 }}>
         {rightSlot}
@@ -599,7 +599,7 @@ function GamePlayer({ word, definition }) {
           "{definition}"
         </div>
         <div style={{ background:"rgba(59,130,246,.06)", borderRadius:12, padding:"14px 18px", border:"1px solid rgba(59,130,246,.12)" }}>
-          <span style={{ fontSize:13.5, color:"var(--muted)" }}>🎭 <strong>Strategy:</strong> Blend in naturally. Use the word in conversation without giving it away.</span>
+          <span style={{ fontSize:13.5, color:"var(--muted)" }}>🎭 <strong>Strategy:</strong> Say synonyms of the word. Don't give away the word to the imposter. </span>
         </div>
       </div>
     </div>
@@ -618,10 +618,10 @@ function GameImposter() {
         </div>
         <div className="imposter-label" style={{ marginBottom:20 }}>?????</div>
         <div style={{ color:"var(--muted)", fontSize:15, lineHeight:1.6, marginBottom:28 }}>
-          You don't know the word. Listen carefully to how others use it — and figure it out without getting caught.
+          You don't know the word. Listen carefully to how others use it and figure it out without getting caught.
         </div>
         <div style={{ background:"rgba(239,68,68,.06)", borderRadius:12, padding:"14px 18px", border:"1px solid rgba(239,68,68,.1)" }}>
-          <span style={{ fontSize:13.5, color:"var(--muted)" }}>🕵️ <strong>Strategy:</strong> Stay vague. Ask questions. Don't reveal you don't know the word.</span>
+          <span style={{ fontSize:13.5, color:"var(--muted)" }}>🕵️ <strong>Strategy:</strong> Stay vague. Don't reveal that you don't know the word.</span>
         </div>
       </div>
     </div>

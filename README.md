@@ -1,4 +1,4 @@
-# SAT Vocab Imposter
+# Imposter: SAT Vocab Edition
 
 A real-time multiplayer vocabulary game. One random player is secretly the "imposter" — they don't see the vocab word. Everyone else uses the word naturally in conversation. The imposter tries to blend in.
 

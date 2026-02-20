@@ -1,5 +1,5 @@
 /**
- * SAT Vocab Imposter — Backend Server
+ * Imposter: SAT Vocab Edition — Backend Server
  * ─────────────────────────────────────
  * Express REST API + WebSocket on the SAME port (Railway/Render compatible)
  *

@@ -1,5 +1,5 @@
 /**
- * api.js — SAT Vocab Imposter client library
+ * api.js — Imposter: SAT Vocab Edition client library
  * ─────────────────────────────────────────────
  * Wraps all REST calls and the WebSocket connection.
  *

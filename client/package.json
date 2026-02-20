@@ -1,7 +1,7 @@
 {
   "name": "sat-vocab-imposter-client",
   "version": "1.0.0",
-  "description": "React frontend for SAT Vocab Imposter multiplayer game",
+  "description": "React frontend for Imposter: SAT Vocab Edition multiplayer game",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
