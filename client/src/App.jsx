@@ -310,7 +310,7 @@ function TopBar({ theme, toggleTheme, showBack, onBack, rightSlot }) {
         {showBack && (
           <button className="btn btn-ghost" onClick={onBack} style={{ color:"rgba(255,255,255,.7)" }}>← Back</button>
         )}
-        <span className="topbar-title">📚 Imposter: SAT Vocab Edition</span>
+        <span className="topbar-title">📚 Imposter: SAT Vocab Edition </span>
       </div>
       <div style={{ display:"flex", alignItems:"center", gap:12 }}>
         {rightSlot}
@@ -821,6 +821,10 @@ export default function App() {
         )}
 
         {toast && <Toast msg={toast} onDone={() => setToast(null)} />}
+
+        <div style={{ position:"fixed", bottom:12, left:0, right:0, textAlign:"center", fontSize:11, color:"rgba(255,255,255,0.25)", pointerEvents:"none", zIndex:999, letterSpacing:"0.03em" }}>
+          Made by Leon Chakraborty for the CCS SAT Prep Club
+        </div>
       </div>
     </>
   );
