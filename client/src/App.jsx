@@ -594,7 +594,7 @@ function GamePlayer({ word, definition }) {
         <div style={{ display:"inline-flex", alignItems:"center", gap:8, background:"var(--success-bg)", color:"var(--success)", padding:"8px 20px", borderRadius:99, marginBottom:28, fontWeight:700, fontSize:14 }}>
           ✅ You are NOT the imposter
         </div>
-        <div className="vocab-word" style={{ marginBottom:16 }}>{word}</div>
+        <div className="vocab-word" style={{marginBottom: 16, padding: "14px 18px"}}>{word}</div>
         <div style={{ background:"rgba(59,130,246,.06)", borderRadius:12, padding:"14px 18px", border:"1px solid rgba(59,130,246,.12)" }}>
           <span style={{ fontSize:13.5, color:"var(--muted)" }}>🎭 <strong>Strategy:</strong> Say synonyms of the word. Don't give away the word to the imposter. </span>
         </div>
