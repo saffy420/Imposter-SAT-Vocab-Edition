@@ -704,7 +704,7 @@ export default function App() {
     api.connect(code, playerId, {
       onOpen:        ()        => setWsConn(true),
       onClose:       ()        => setWsConn(false),
-      onPartyState:  (p)       => setParty(p),
+      onPartyState:  (p)       => { setParty(p); setGameMembers(p.members); },
       onGameStarted: (payload) => {
         setGamePayload(payload);
         setGameMembers(payload.members || []);
