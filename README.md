@@ -47,28 +47,6 @@ Both terminals must stay open while playing.
 
 ---
 
-## Deployment (Free)
-
-### Server → Railway
-1. Go to railway.app → New Project → Deploy from GitHub
-2. Set root directory to `server`
-3. After deploy: Settings → Networking → Generate Domain
-4. Copy your domain e.g. `your-app.up.railway.app`
-
-### Client → Vercel
-1. Go to vercel.com → Add New Project → Import your repo
-2. Set root directory to `client`
-3. Add environment variables:
-   ```
-   REACT_APP_API_URL = https://your-app.up.railway.app
-   REACT_APP_WS_URL  = wss://your-app.up.railway.app
-   ```
-4. Deploy
-
-Share the Vercel URL with players — no install needed on their end.
-
----
-
 ## Environment Variables
 
 ### Client (`client/.env.local` for local dev)
@@ -76,7 +54,6 @@ Share the Vercel URL with players — no install needed on their end.
 REACT_APP_API_URL=http://localhost:4000
 REACT_APP_WS_URL=ws://localhost:4001
 ```
-In production these are set in the Vercel dashboard.
 
 ---
 
